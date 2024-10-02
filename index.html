@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Team Recruitment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .hero-section {
+            background-color: #054375;
+            padding-top: 6rem;
+            color: white;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 600px;
+        }
+    </style>
+</head>
+<body id="beranda">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand">Esports Team</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid hero-section">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Gabung dengan Tim Esports Sentinels!</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Kami tidak akan membagikan email Anda kepada siapa pun.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Kata Sandi</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gabung Sekarang</button>
+                </form>
+
+                <div class="mt-4">
+                    <h1>Bergabunglah dengan Komunitas Gaming Terbaik!</h1>
+                    <p>Temukan teman setim dan tingkatkan kemampuan bermainmu bersama kami!</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/esports1.jpg" class="d-block w-100" alt="Esports Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/esports2.jpg" class="d-block w-100" alt="Esports Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/esports3.jpg" class="d-block w-100" alt="Esports Image 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Sebelumnya</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Berikutnya</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="about">
+        <h2 class="text-center">Mengapa Bergabung dengan Tim Esports Kami?</h2>
+        <p class="text-center">Kami adalah komunitas yang terdiri dari pemain berbakat dan berpengalaman. Apakah kamu ingin bersaing di level tertinggi atau sekadar bersenang-senang, tim kami memiliki tempat untukmu!</p>
+        <h2 class="text-center">Dapatkan Kesempatan untuk Bersaing!</h2>
+        <p class="text-center">Bergabunglah dengan tim kami dan dapatkan akses ke pelatihan, turnamen, dan banyak lagi. Kami berkomitmen untuk membantu anggota kami berkembang dan mencapai impian mereka di dunia esports.</p> 
+    </div>
+
+    <section id="projects" style="background-color:#054375; color: white;">
+        <div class="container" id="galeri">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>Highlight Tim Esports Kami</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-white">
+                        <img src="./img/highlight1.jpg" class="card-img-top" alt="Highlight 1">
+                        <div class="card-body">
+                            <p class="card-text">Tim kami mentargetkan memenangkan banyak turnamen dan terus berusaha untuk mencapai puncak!</p>
+                        </div>
+                    </div>   
+                </div>    
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-white">
+                        <img src="./img/highlight2.jpg" class="card-img-top" alt="Highlight 2">
+                        <div class="card-body">
+                            <p class="card-text">Latihan intensif dan kerja sama tim yang solid adalah kunci kesuksesan kami.</p>
+                        </div>
+                    </div>   
+                </div>    
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-white">
+                        <img src="./img/highlight3.jpg" class="card-img-top" alt="Highlight 3">
+                        <div class="card-body">
+                            <p class="card-text">Bergabunglah dengan kami dan jadilah bagian dari cerita sukses selanjutnya!</p>
+                        </div>
+                    </div>   
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Bagaimana Cara Bergabung?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Isi formulir pendaftaran di atas, lalu tunggu konfirmasi dari tim kami. Kami akan menghubungi kamu untuk proses berikutnya.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Opsi Pembiayaan
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Kami menawarkan dukungan dan sumber daya yang diperlukan untuk setiap anggota baru. Tidak ada biaya tersembunyi untuk bergabung!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-5" id="kontak">
+        <p>
+            Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/officialnexustl/" class="text-white fw-bold">Ferdi Fachrezi</a>
+        </p>  
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
